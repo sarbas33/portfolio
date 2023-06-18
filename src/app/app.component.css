@@ -14,7 +14,7 @@ a:hover, h1:hover {
 
 h1 {
     padding-left: 70px;
-    font-size: 36px;
+    font-size: 40px;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -32,6 +32,9 @@ h1 {
     margin-left: 10px;
 }
 
-.header{
-    
+.main-body{
+    margin-left: 60px;
+}
+.first-letter{
+    color: red;
 }

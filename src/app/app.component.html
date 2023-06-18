@@ -1,10 +1,12 @@
 <div class="header">
-  <h1>Sarbas Pariyarath</h1>
+  <h1 routerLink="/"> <span class="first-letter">S</span>arbas Pariyarath</h1>
   <div class="links-container">
     <a (click)="openWorkPage()">Work Experience</a>
     <a (click)="openWorkPage()">Skills</a>
     <a (click)="openWorkPage()">Education</a>
-    <a (click)="openContactPage()">Contact</a>
+    <a routerLink="/contact">Contact</a>
   </div>
 </div>
-<div class="main-body"></div>
+<div class="main-body">
+  <router-outlet></router-outlet>
+</div>
